@@ -1,0 +1,28 @@
+@import './variables';
+@import './sidebar-wrapper';
+
+.page-wrapper {
+    height: 100vh;
+
+    .sidebar-wrapper {
+        left: 0px;
+    }
+}
+
+.sidebar-simple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        color: rgb(167, 160, 160);
+    }
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}

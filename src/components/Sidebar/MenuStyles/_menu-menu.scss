@@ -1,0 +1,100 @@
+.menu-wrapper {
+    position: relative;
+    .menu-menu {
+        ul li a {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            text-decoration: none;
+            position: relative;
+            padding: 8px 30px 8px 20px;
+            width: 100%;
+
+            &:hover > i::before {
+                display: inline-block;
+            }
+
+            i {
+                margin-right: 10px;
+                font-size: 12px;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                flex-shrink: 0;
+            }
+
+            .menu-text {
+                flex-grow: 1;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                flex-shrink: 1;
+                overflow: hidden;
+                //font-size: 18px;
+            }
+        }
+
+        .menu-dropdown {
+            margin-bottom: 3.25rem;
+
+            > a:after {
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                content: '\f105';
+                display: inline-block;
+                font-style: normal;
+                font-variant: normal;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-align: center;
+                background: 0 0;
+                position: absolute;
+                right: 22px;
+                top: 9px;
+                transition: transform 0.3s ease;
+            }
+
+            .menu-submenu {
+                overflow: hidden;
+                ul {
+                    padding: 5px 0;
+                }
+
+                li {
+                    padding-left: 25px;
+                    font-size: 13px;
+
+                    a {
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        &:before {
+                            content: '\f111';
+                            font-family: 'Font Awesome 5 Free';
+                            font-weight: 400;
+                            font-style: normal;
+                            display: inline-block;
+                            text-align: center;
+                            text-decoration: none;
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                            margin-right: 10px;
+                            font-size: 8px;
+                        }
+
+                        .badge,
+                        .label {
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+
+            &.active > a:after {
+                transform: rotate(90deg);
+                right: 15px;
+            }
+        }
+    }
+}

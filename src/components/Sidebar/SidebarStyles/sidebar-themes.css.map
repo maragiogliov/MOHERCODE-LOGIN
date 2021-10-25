@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,ACaI,cDbU,CCaV,gBAAgB,CAAC;EACb,gBAAgB,EDbD,OAAO;CC2BzB;;AD5BL,ACgBQ,cDhBM,CCaV,gBAAgB,CAGZ,aAAa,CAAC;EACV,UAAU,EAAE,GAAG,CAAC,KAAK,CDbd,OAAO;CCkBjB;;ADtBT,ACmBY,cDnBE,CCaV,gBAAgB,CAGZ,aAAa,AAGR,YAAY,CAAC;EACV,UAAU,EAAE,IAAI;CACnB;;ADrBb,ACwBQ,cDxBM,CCaV,gBAAgB,CAWZ,aAAa,CAAC,CAAC,AAAA,MAAM,CAAC,CAAC;ADxB/B,cAAc,CCaV,gBAAgB,CAYZ,aAAa,CAAC,EAAE,AAAA,OAAO,CAAC,CAAC,CAAC,CAAC,CAAC;EACxB,KAAK,EDlBe,OAAO;CCmB9B",
+    "sources": [
+        "sidebar-themes.scss",
+        "_mixin.scss"
+    ],
+    "names": [],
+    "file": "sidebar-themes.css"
+}

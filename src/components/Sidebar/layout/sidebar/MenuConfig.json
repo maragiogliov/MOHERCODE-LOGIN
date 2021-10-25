@@ -1,0 +1,70 @@
+{
+    "menus": [
+        {
+            "title": "HTML",
+            "icon": "fas fa-graduation-cap",
+            "active": false,
+            "type": "dropdown",
+            "submenus": [
+                {
+                    "title": "HTML"
+                },
+                {
+                    "title": "CSS"
+                },
+                {
+                    "title": "JavaScript"
+                }
+            ]
+        },
+        {
+            "title": "CSS",
+            "icon": "fas fa-code",
+            "active": false,
+            "type": "dropdown",
+            "submenus": [
+                {
+                    "title": "HTML"
+                },
+                {
+                    "title": "CSS"
+                },
+                {
+                    "title": "JavaScript"
+                }
+            ]
+        },
+        {
+            "title": "JavaScript",
+            "icon": "fas fa-cut",
+            "active": false,
+            "type": "dropdown",
+            "submenus": [
+                {
+                    "title": "HTML"
+                },
+                {
+                    "title": "CSS"
+                },
+                {
+                    "title": "JavaScript"
+                }
+            ]
+        },
+
+        {
+            "title": "Miscellaneous",
+            "icon": "fa fa-book-open",
+            "active": false,
+            "type": "dropdown",
+            "submenus": [
+                {
+                    "title": "Exercise Instructions"
+                },
+                {
+                    "title": "Official Solutions"
+                }
+            ]
+        }
+    ]
+}

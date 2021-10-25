@@ -1,0 +1,662 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.login {
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 40rem;
+}
+
+.login .grafic {
+  position: absolute;
+  width: 100rem;
+  height: 50rem;
+  display: block;
+  margin-top: -60rem;
+  z-index: -1;
+}
+
+.login .login-image--container {
+  color: #dedee9;
+  font-family: Aspira-Bold;
+  font-size: 2.4rem;
+  padding-right: 10rem;
+}
+
+.login .login-image--container .login--image {
+  display: block;
+  width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.login .login-image--container .login--headline {
+  text-align: center;
+  margin-top: 0;
+}
+
+.login .login-image--container .login--headline-secondary {
+  text-align: center;
+  font-weight: 900;
+}
+
+.login .login-image--container .title-slogan {
+  line-height: 0.5;
+}
+
+.login .login-image--container .title-slogan h4 {
+  font-family: Aspira-Light;
+  margin-top: 2rem;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.form--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 40rem;
+  height: 58rem;
+  background-color: whitesmoke;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 4rem;
+}
+
+.form--container h2 {
+  text-align: center;
+}
+
+.form--container p {
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+  color: #555555;
+  font-family: Aspira-Light;
+  font-weight: 300;
+  text-align: center;
+}
+
+.form--container .form-string--or {
+  margin: 2rem 0;
+  width: 80%;
+  text-align: center;
+  border-bottom: 2px solid #555555;
+  line-height: 0.1px;
+}
+
+.form--container .form-string--or span {
+  background-color: whitesmoke;
+  padding: 0 10px;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+input {
+  font-family: Aspira-Bold;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  min-width: 100%;
+  margin-right: 6rem;
+  border: solid white 0.25rem;
+  font-size: 1.13rem;
+}
+
+input:last-of-type {
+  margin-bottom: 1rem;
+}
+
+input[type='password'] {
+  margin-bottom: 2.4rem;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.message--login,
+.message--welcome {
+  font-family: "Poppins", "Aspira_Light", "Times";
+}
+
+.message--welcome {
+  font-weight: 400;
+}
+
+.message--title {
+  position: absolute;
+  top: 12rem;
+  left: 9rem;
+  color: white;
+  font-family: "Poppins", "Aspira_Light", "Times";
+  font-size: 3rem;
+}
+
+.message--option {
+  font-family: Aspira-Bold;
+  color: #737373;
+}
+
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.button-submit,
+.button-sent,
+.button-review,
+.button-approved,
+.button-instructions,
+.button-google,
+.button-sidebar,
+.button-github {
+  padding: 1rem 7rem;
+  border-radius: 0.5rem;
+  background-color: #fc6500;
+  color: #dedee9;
+  cursor: pointer;
+  font-family: Aspira-Light;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: solid #fc6500 0.25rem;
+}
+
+.button-sent,
+.button-review {
+  margin-right: 2rem;
+  padding: 1rem 1rem;
+  color: white;
+  background-color: #121c2e;
+  border: 0.25rem solid yellow;
+}
+
+.button-approved {
+  background-color: #33ff00;
+  color: black;
+}
+
+.button-instructions,
+.button-sidebar {
+  background-color: transparent;
+  color: white;
+}
+
+.button-instructions:hover,
+.button-sidebar:hover {
+  color: #121c2e;
+  background-color: white;
+}
+
+.button-instructions {
+  border: none;
+  padding: 0 2rem;
+  margin-left: 20rem;
+}
+
+.instructions-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.button-sidebar {
+  background-color: #121c2e;
+  width: 5rem;
+  margin-left: 2rem;
+  padding: 0;
+  border: none;
+}
+
+.button-sidebar .sidebar-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.button-google,
+.button-github {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: #737373;
+  border: solid white 0.25rem;
+  background-image: url("https://s2.qwant.com/thumbr/0x380/f/2/580888394b8017d6ccf8db4e4c77fe7cbb69f55b962c393fbfce62ec003eb7/google-logo-transparent-background-4.png?u=http%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fgoogle-logo-transparent-background-4.png&q=0&b=1&p=0&a=0");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.button-github {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.button-google:hover,
+.button-github:hover,
+.button-submit:hover {
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.button-submit:hover {
+  border-color: #b69e5d;
+}
+
+.button-html,
+.button-css,
+.button-js {
+  color: white;
+  border-radius: 1rem;
+  background-color: #121c2e;
+  border: 0.25rem solid #6a7ea5;
+  padding: 1rem;
+  min-width: 6rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.button-html::before {
+  content: '<>';
+  margin-right: 5px;
+}
+
+.button-css::before {
+  content: '#';
+  margin-right: 5px;
+}
+
+.button-js::before {
+  content: '{ }';
+  margin-right: 5px;
+}
+
+.button-html.active {
+  color: white;
+  border-color: #ee4705;
+}
+
+.button-css.active {
+  color: white;
+  border-color: #496de2;
+}
+
+.button-js.active {
+  color: white;
+  border-color: #ffff49;
+}
+
+.button-sent:hover,
+.button-review:hover {
+  color: #121c2e;
+  background-color: white;
+}
+
+@media (max-width: 625px) {
+  .login {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .login .grafic {
+    position: absolute;
+    display: block;
+    z-index: -1;
+  }
+  .login .login-image--container {
+    padding: 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+  }
+  .login .login-image--container .login--image {
+    display: block;
+    width: 30rem;
+    margin-bottom: 0;
+  }
+  .login .login-image--container .login--headline {
+    text-align: center;
+    margin-top: 0;
+  }
+  .login .login-image--container .login--headline-secondary {
+    text-align: center;
+    display: none;
+  }
+  .login .login-image--container .title-slogan {
+    line-height: 0.5;
+  }
+  .login .login-image--container .title-slogan h4 {
+    font-family: Aspira-Light;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 626px) and (max-width: 930px) {
+  .login {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .login .grafic {
+    position: absolute;
+    display: block;
+    z-index: -1;
+  }
+  .login .login-image--container {
+    margin: -1rem;
+    padding: 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+  }
+  .login .login-image--container .login--image {
+    display: block;
+    width: 34rem;
+    padding: 0;
+  }
+  .login .login-image--container .login--headline {
+    text-align: center;
+    margin-top: 0;
+  }
+  .login .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-weight: 900;
+  }
+  .login .login-image--container .title-slogan {
+    line-height: 0.5;
+  }
+  .login .login-image--container .title-slogan h4 {
+    font-family: Aspira-Light;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 626px) and (max-width: 648px) {
+  .login {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .login .grafic {
+    position: absolute;
+    display: block;
+    z-index: -1;
+  }
+  .login .login-image--container {
+    margin: -1rem;
+    padding: 0;
+    color: #dedee9;
+    font-family: Aspira-Bold;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+  .login .login-image--container .login--image {
+    display: block;
+    width: 36rem;
+    padding: 0;
+  }
+  .login .login-image--container .login--headline {
+    text-align: center;
+    margin-top: 0;
+  }
+  .login .login-image--container .login--headline-secondary {
+    text-align: center;
+    font-weight: 900;
+    display: none;
+  }
+  .login .login-image--container .title-slogan {
+    line-height: 0.5;
+  }
+  .login .login-image--container .title-slogan h4 {
+    font-family: Aspira-Light;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 625px) {
+  .form--container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 40rem;
+    height: 58rem;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 4rem;
+  }
+  .form--container h2 {
+    text-align: center;
+  }
+  .form--container p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: #555555;
+    font-family: Aspira-Light;
+    font-weight: 300;
+    text-align: center;
+  }
+  .form--container .form-string--or {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+    border-bottom: 2px solid #555555;
+    line-height: 0.1px;
+  }
+  .form--container .form-string--or span {
+    background-color: whitesmoke;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 626px) and (max-width: 929.99px) {
+  .form--container {
+    overflow-x: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 40rem;
+    height: 58rem;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 4rem;
+  }
+  .form--container h2 {
+    text-align: center;
+  }
+  .form--container p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    color: #555555;
+    font-family: Aspira-Light;
+    font-weight: 300;
+    text-align: center;
+  }
+  .form--container .form-string--or {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: center;
+    border-bottom: 2px solid #555555;
+    line-height: 0.1px;
+  }
+  .form--container .form-string--or span {
+    background-color: whitesmoke;
+    padding: 0 10px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body {
+  background: radial-gradient(circle, #64007b 0%, #3e1456 100%);
+  overflow: hidden;
+  font-size: 1.6rem;
+}
+
+:root {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,32 @@
+@mixin themes(
+    $sidebar-bg-color,
+    $primary-color,
+    $primary-highlight-color,
+    $border-color,
+    $submenu-bg-color,
+    $menu-icon-bg-color,
+    $menu-icon-color,
+    $menu-icon-highlight-color,
+    $menu-header-color,
+    $search-input-bg-color,
+    $footer-bg-color,
+    $shadow-color,
+    $scrollbar-color
+) {
+    .sidebar-wrapper {
+        background-color: $sidebar-bg-color;
+
+        .sidebar-item {
+            border-top: 1px solid $border-color;
+
+            &:first-child {
+                border-top: none;
+            }
+        }
+
+        .sidebar-menu a:hover i,
+        .sidebar-menu li.active a i {
+            color: $menu-icon-highlight-color;
+        }
+    }
+}

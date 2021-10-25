@@ -1,0 +1,28 @@
+@import '../variables/variables';
+
+input:focus {
+    border: none;
+    background-color: white;
+    border-radius: none;
+}
+input {
+    font-family: $font-headline-bold;
+
+    padding: $padding-l * 1.5;
+    min-width: 100%;
+    border: none;
+    border-radius: $border-radius-m;
+    font-size: $font-m * 1.13;
+    background-color: white;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+input:last-of-type {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+input[type='password'] {
+    margin-bottom: 0rem;
+}

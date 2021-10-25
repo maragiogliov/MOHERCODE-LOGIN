@@ -1,0 +1,31 @@
+.menu-wrapper {
+    .menu-header {
+        padding: 25px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+
+        .user-pic {
+            width: 50px;
+            padding: 0.2rem;
+            margin-right: 1rem;
+            overflow: hidden;
+
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .user-info {
+            overflow: hidden;
+
+            > span {
+                display: block;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

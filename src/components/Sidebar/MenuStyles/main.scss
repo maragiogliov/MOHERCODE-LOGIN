@@ -1,0 +1,72 @@
+@import './variables';
+@import './menu-wrapper';
+
+/*----------------page-wrapper----------------*/
+
+.page-wrapper {
+    height: 100vh;
+
+    .theme {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        margin: 2px;
+        background-size: cover;
+    }
+
+    .page-content {
+        display: inline-block;
+        width: 100%;
+        transition: padding-left 0.3s ease;
+        overflow-x: hidden;
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 998;
+            background: #000;
+            opacity: 0.5;
+            display: none;
+        }
+    }
+
+    .menu-dropdown.active .menu-submenu {
+        max-height: 300px;
+        /*transition: all 0.4s ease;*/
+    }
+}
+
+/*---- border-radius ------*/
+.border-radius-on {
+    .menu-header .user-pic {
+        border-radius: 12px;
+    }
+
+    .badge {
+        border-radius: 8px;
+    }
+
+    .menu-menu ul li i {
+        border-radius: $border-radius;
+    }
+
+    .menu-footer .dropdown-menu {
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+    }
+
+    .menu-search {
+        input {
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+        }
+
+        .input-group-append .input-group-text {
+            border-top-right-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
+        }
+    }
+}

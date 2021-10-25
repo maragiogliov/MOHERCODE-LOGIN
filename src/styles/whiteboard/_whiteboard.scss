@@ -1,0 +1,56 @@
+@import '../variables/variables';
+
+.board {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.sketch {
+    width: 95%;
+    height: 95%;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(100, 64, 123);
+    background: $background-gradient;
+}
+
+.color-picker-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+
+    input {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.brushsize-container {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+}
+
+.tools-section {
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-container {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@font-face {
+  font-family: Aspira-Bold;
+  src: url("../../fonts/Aspira_Bold.otf");
+}
+
+@font-face {
+  font-family: Aspira-Light;
+  src: url("../../fonts/Aspira_Light.otf");
+}
+
+.App {
+  text-align: center;
+}
+/*# sourceMappingURL=App.css.map */

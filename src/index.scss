@@ -1,0 +1,47 @@
+@import './styles/variables/variables';
+@import './styles/login/login';
+@import './styles/form/form';
+@import './styles/field/field';
+@import './styles/message/message';
+@import './styles/button/button';
+@import './styles/signup/signup';
+@import './styles/mobile/login/login';
+@import './styles/mobile/form/form';
+@import './styles/mobile/signup/signup';
+
+// body {
+//     margin: 0;
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+//         'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+//         'Helvetica Neue', sans-serif;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     // background-color: rebeccapurple;
+// }
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+body {
+}
+
+:root {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+// @media (max-width: 620px) {
+//     body {
+//         background-color: yellow;
+//     }
+// }

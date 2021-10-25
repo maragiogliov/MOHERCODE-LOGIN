@@ -1,0 +1,31 @@
+.menu-wrapper {
+    .menu-search {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        // padding: 1rem;
+        // margin: 1rem;
+        > div {
+            position: relative;
+        }
+
+        input {
+            border-radius: 0px;
+        }
+
+        .input-group {
+            flex-wrap: nowrap;
+        }
+
+        .input-group-append .input-group-text {
+            position: absolute;
+            left: 160px;
+            top: 4px;
+            border-radius: 0;
+            border-left: 0;
+            z-index: 333;
+        }
+    }
+}

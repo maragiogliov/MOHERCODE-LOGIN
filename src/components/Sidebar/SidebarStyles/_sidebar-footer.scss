@@ -1,0 +1,20 @@
+.sidebar-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    padding: 0.75rem;
+
+    > div {
+        flex-grow: 1;
+        text-align: center;
+        height: $sidebar-footer-height;
+        line-height: $sidebar-footer-height;
+        position: static;
+        display: flex;
+
+        > a {
+            flex-grow: 1;
+        }
+    }
+}

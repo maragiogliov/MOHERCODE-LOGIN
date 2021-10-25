@@ -1,0 +1,17 @@
+.default-theme .sidebar-wrapper {
+  background-color: #1e2229;
+}
+
+.default-theme .sidebar-wrapper .sidebar-item {
+  border-top: 1px solid #2e333c;
+}
+
+.default-theme .sidebar-wrapper .sidebar-item:first-child {
+  border-top: none;
+}
+
+.default-theme .sidebar-wrapper .sidebar-menu a:hover i,
+.default-theme .sidebar-wrapper .sidebar-menu li.active a i {
+  color: #16c7ff;
+}
+/*# sourceMappingURL=sidebar-themes.css.map */

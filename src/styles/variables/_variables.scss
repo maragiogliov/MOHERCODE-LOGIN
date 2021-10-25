@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+// Adding Aspira font
+@font-face {
+    font-family: Aspira-Bold;
+    // src: url('../../fonts/Aspira_Light.otf');
+    src: url('../../fonts/Aspira_Bold.otf');
+}
+@font-face {
+    font-family: Aspira-Light;
+    // src: url('../../fonts/Aspira_Light.otf');
+    src: url('../../fonts/Aspira_Light.otf');
+}
+
+//Colors
+$color-primary: rgb(100, 0, 123);
+$color-secondary: rgb(255, 255, 255);
+$color-tertiary: rgb(204, 146, 39);
+$color-highlight: rgb(170, 108, 184);
+
+//Border colors
+$color-border: rgb(0, 0, 0);
+$color-border-light: rgb(66, 58, 58);
+
+//Link colors
+$color-link: rgb(223, 104, 197);
+$color-link-dark: rgb(131, 42, 111);
+$color-link-light: rgb(235, 131, 212);
+
+//Text colors
+$color-text: rgb(4, 4, 109);
+$color-text-light: rgb(117, 117, 238);
+$color-text-lightest: rgb(222, 222, 233);
+$color-text-login: rgb(0, 0, 0);
+
+// Button colors
+$color-button: rgb(252, 101, 0);
+
+// Form
+$form-primary-color: rgb(245, 245, 245);
+$form-primary-color-lightest: rgb(255, 255, 255);
+$form-primary-text-color: rgb(115, 115, 115);
+$form-secondary-text-color: rgb(85, 85, 85);
+$form-size: 40rem;
+
+// Form Button Hover Colors
+$form-button-hover-color: rgb(182, 158, 93);
+
+// Login colors
+$login-primary-color: rgb(113, 17, 157);
+
+// Border Colors
+$border-primary-color: rgb(175, 238, 238);
+
+// Editor Button Colors
+$html-border-color: rgb(238, 71, 5);
+$css-border-color: rgb(73, 109, 226);
+$js-border-color: rgb(255, 255, 73);
+
+// Editor Pane Color:
+$editor-code-pane-color: rgb(18, 28, 46);
+
+// Screen View
+$full-screen-height-vh: 100vh;
+$full-screen-width-wh: 100wh;
+$full-screen-percent: 100%;
+$half-screen-percent: 50%;
+
+//Padding
+$padding-xl: 2rem;
+$padding-l: 1rem;
+$padding-m: 0.5rem;
+$padding-s: 0.25rem;
+
+//Margin
+$margin-xl: 2rem;
+$margin-l: 1rem;
+$margin-m: 0.5rem;
+$margin-s: 0.25rem;
+
+//Border Radius
+$border-radius-xl: 2rem;
+$border-radius-l: 1rem;
+$border-radius-m: 0.5rem;
+$border-radius-s: 0.25rem;
+
+//Font
+$font-xl: 3rem;
+$font-l: 2rem;
+$font-m: 1rem;
+
+//Font-Family-Login
+$font-headline-bold: Aspira-Bold;
+$font-headline-light: Aspira-Light;
+$font-login: 'Poppins', 'Aspira_Light', 'Times';
+$form-font-secondary: 'Reem Kufi';
+
+//Navbar
+$nav-size: 6rem;
+$border: 0.1rem solid $color-highlight;
+$speed: 500ms;
+$button-size: 3rem;
+
+// // --bg: rgb(224, 9, 27);
+// --text-color: rgb(222, 222, 233);
+// --nav-size: 6rem;
+// --border: 0.1rem solid rgb(170, 108, 184);
+// --border-radius: 8px;
+// --speed: 500ms;
+
+// Breakpoints for responsive design
+// breakpoints: {
+//     sm: "screen and (max-width: 640px)",
+//     md: "screen and (max-width: 768px)",
+//     lg: "screen and (max-width: 1024px)",
+//     xl: "screen and (max-width: 1280px)",
+//   }
+
+$background-gradient: radial-gradient(
+    circle,
+    rgba(100, 0, 123, 1) 0%,
+    rgba(62, 20, 86, 1) 100%
+);

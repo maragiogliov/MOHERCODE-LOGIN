@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import '../variables/variables';
+
+.login {
+    position: relative;
+    max-width: $full-screen-percent;
+    height: $full-screen-height-vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 $padding-xl * 20;
+    overflow: hidden;
+    z-index: -1;
+    background: rgba(62, 20, 86, 1) 100%;
+
+    p {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+.BgAnimation__svg {
+    width: 100%;
+    background: radial-gradient(
+        circle,
+        rgba(100, 0, 123, 1) -30%,
+        rgba(62, 20, 86, 1) 50%
+    );
+}
+
+.grafic {
+    position: absolute;
+    width: $margin-xl * 50;
+    height: 100vh;
+    margin-top: $margin-xl * -26;
+    overflow: hidden;
+    z-index: -1;
+    background-color: rgb(236, 231, 236);
+}
+
+.login-image--container {
+    color: $color-text-lightest;
+    font-family: $font-headline-bold;
+    font-size: $font-l * 1.2;
+    padding-right: $margin-xl * 0;
+
+    .login--image {
+        display: block;
+        width: $margin-xl * 25;
+        margin: 0 auto;
+        margin-bottom: -5rem;
+        opacity: 0.9;
+    }
+
+    .login--headline {
+        text-align: center;
+        margin-top: 0rem;
+        font-size: 7rem;
+        margin-bottom: -3rem;
+    }
+    .login--headline-secondary {
+        text-align: center;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    .title-slogan {
+        line-height: 0.5;
+        h4 {
+            font-family: $font-headline-light;
+            margin-top: $margin-xl;
+        }
+    }
+}
+.form-signup--container {
+    height: $margin-xl * 24;
+
+    .message--signup {
+    }
+
+    input[type='password'] {
+        margin-bottom: $margin-xl * 1;
+    }
+}

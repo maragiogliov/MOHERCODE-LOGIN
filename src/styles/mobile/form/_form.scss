@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@media (max-width: 625px) {
+    .form--container {
+        overflow-x: hidden;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: $margin-xl * 20;
+        height: $margin-xl * 29;
+        background-color: $form-primary-color;
+        margin-bottom: $margin-xl;
+        border-radius: $margin-l;
+        padding: $padding-xl * 2;
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            margin-top: $margin-l * 0.7;
+            margin-bottom: $margin-l * 1.5;
+            color: $form-secondary-text-color;
+            font-family: $font-headline-light;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .form-string--or {
+            margin: $margin-xl 0;
+            width: $full-screen-percent - 20%;
+            text-align: center;
+            border-bottom: 2px solid $form-secondary-text-color;
+            line-height: 0.1px;
+
+            span {
+                background-color: $form-primary-color;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 626px) and (max-width: 929.99px) {
+    .form--container {
+        overflow-x: hidden;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: $margin-xl * 20;
+        height: $margin-xl * 29;
+        background-color: $form-primary-color;
+        margin-bottom: $margin-xl;
+        border-radius: $margin-l;
+        padding: $padding-xl * 2;
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            margin-top: $margin-l * 0.7;
+            margin-bottom: $margin-l * 1.5;
+            color: $form-secondary-text-color;
+            font-family: $font-headline-light;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .form-string--or {
+            margin: $margin-xl 0;
+            width: $full-screen-percent - 20%;
+            text-align: center;
+            border-bottom: 2px solid $form-secondary-text-color;
+            line-height: 0.1px;
+
+            span {
+                background-color: $form-primary-color;
+                padding: 0 10px;
+            }
+        }
+    }
+}

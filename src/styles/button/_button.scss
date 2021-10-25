@@ -1,0 +1,184 @@
+@import '../variables/variables';
+
+.button-submit,
+.button-sent,
+.button-review,
+.button-approved,
+.button-instructions,
+.button-google,
+.button-sidebar,
+.button-github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $padding-l $padding-xl * 1;
+    border-radius: $border-radius-m;
+    background-color: $color-button;
+    color: $color-text-lightest;
+    cursor: pointer;
+    font-family: $font-headline-light;
+    font-size: $font-m * 1.5;
+    font-weight: 800;
+    border: 0rem;
+}
+
+.button-sent,
+.button-review {
+    margin-right: $margin-xl;
+    padding: $padding-l $padding-l;
+    color: $form-primary-color-lightest;
+    background-color: $editor-code-pane-color;
+    border: 0.25rem solid yellow;
+}
+.button-approved {
+    background-color: rgb(51, 255, 0);
+    color: $color-text-login;
+}
+
+.button-instructions,
+.button-sidebar {
+    background-color: transparent;
+    color: $form-primary-color-lightest;
+}
+
+.button-instructions:hover,
+.button-sidebar:hover {
+    color: $editor-code-pane-color;
+    background-color: $form-primary-color-lightest;
+}
+
+.button-instructions {
+    border: none;
+    padding: 0 $padding-xl;
+    margin-left: $margin-xl * 10;
+}
+
+.instructions-icon {
+    width: $margin-xl * 1.25;
+    height: $margin-xl * 1.25;
+}
+
+.button-sidebar {
+    background-color: $editor-code-pane-color;
+    width: $margin-xl * 2.5;
+    margin-left: $margin-xl;
+    padding: 0;
+    border: none;
+
+    .sidebar-icon {
+        width: $margin-xl * 1.5;
+        height: $margin-xl * 1.5;
+    }
+}
+
+.button-submit {
+    margin-left: 6rem;
+    margin-top: 0;
+    background-color: rgba(63, 22, 212, 0.5);
+    border: solid rgb(0, 0, 0) 1px;
+    width: 15rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+.button-google {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: $margin-l;
+    background-color: rgb(20, 22, 43, 0.5);
+    background-image: url('https://s2.qwant.com/thumbr/0x380/f/2/580888394b8017d6ccf8db4e4c77fe7cbb69f55b962c393fbfce62ec003eb7/google-logo-transparent-background-4.png?u=http%3A%2F%2Fbackgroundcheckall.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fgoogle-logo-transparent-background-4.png&q=0&b=1&p=0&a=0');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 3rem;
+    background-position-x: 3rem;
+    width: 100%;
+    height: 6rem;
+}
+
+.button-github {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(20, 22, 43, 0.5);
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-repeat: no-repeat;
+    background-size: 3rem;
+    background-position-x: 3rem;
+    background-position-y: center;
+    height: 6rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.button-google:hover,
+.button-github:hover,
+.button-submit:hover {
+    box-shadow: 0px 5px 20px rgba(190, 167, 167, 0.1);
+}
+
+.button-submit:hover {
+    border-color: $form-button-hover-color;
+}
+
+.button-html,
+.button-css,
+.button-js {
+    color: rgba(255, 255, 255, 50%);
+    border-radius: $border-radius-l;
+    background-color: $editor-code-pane-color;
+    border: 0.25rem solid rgb(106, 126, 165);
+    padding: $margin-l;
+    // padding: 0.7rem;
+    min-width: 6rem;
+    cursor: pointer;
+    margin-right: $margin-xl;
+}
+
+.button-html::before {
+    content: '<>';
+    margin-right: 5px;
+}
+.button-css::before {
+    content: '#';
+    margin-right: 5px;
+}
+.button-js::before {
+    content: '{ }';
+    margin-right: 5px;
+}
+
+.button-html {
+    &.active {
+        color: $form-primary-color-lightest;
+        border-color: $html-border-color;
+    }
+}
+.button-css {
+    &.active {
+        color: $form-primary-color-lightest;
+        border-color: $css-border-color;
+    }
+}
+.button-js {
+    &.active {
+        color: $form-primary-color-lightest;
+        border-color: $js-border-color;
+    }
+}
+
+// .button-sent {
+//     margin-right: $margin-xl;
+//     padding: 1rem 1rem;
+//     color: white;
+//     background-color: $editor-code-pane-color;
+//     border: 2px solid yellow;
+// }
+
+.button-sent:hover,
+.button-review:hover {
+    color: $editor-code-pane-color;
+    background-color: white;
+}

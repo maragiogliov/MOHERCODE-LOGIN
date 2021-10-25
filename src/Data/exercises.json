@@ -1,0 +1,434 @@
+[
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9cd6e707aabf60a13a1e",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Brian Banana",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498feb"
+        },
+        "isApproved": false,
+        "id": "615c9cd6e707aabf60a13a1e"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9cf8e707aabf60a13a21",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Chris Car",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498fec"
+        },
+        "isApproved": false,
+        "id": "615c9cf8e707aabf60a13a21"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9d15e707aabf60a13a24",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Dave Dinosaur",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498fed"
+        },
+        "isApproved": false,
+        "id": "615c9d15e707aabf60a13a24"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"gray\";"
+        },
+        "_id": "615c9d3ae707aabf60a13a27",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Emily Elephant",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498fee"
+        },
+        "isApproved": false,
+        "id": "615c9d3ae707aabf60a13a27"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: yellow;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9d5ee707aabf60a13a2a",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Fred Fishfinger",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498fef"
+        },
+        "isApproved": false,
+        "id": "615c9d5ee707aabf60a13a2a"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9d76e707aabf60a13a2d",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Gwen Granite",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff0"
+        },
+        "isApproved": false,
+        "id": "615c9d76e707aabf60a13a2d"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9d8ee707aabf60a13a30",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Hope Helpless",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff1"
+        },
+        "isApproved": false,
+        "id": "615c9d8ee707aabf60a13a30"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9dbbe707aabf60a13a33",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Ivan Incognito",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff2"
+        },
+        "isApproved": false,
+        "id": "615c9dbbe707aabf60a13a33"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9de8e707aabf60a13a36",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Jane Jump",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff3"
+        },
+        "isApproved": false,
+        "id": "615c9de8e707aabf60a13a36"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": ""
+        },
+        "_id": "615c9e06e707aabf60a13a39",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Keith Kangaroo",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff4"
+        },
+        "isApproved": false,
+        "id": "615c9e06e707aabf60a13a39"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9e1fe707aabf60a13a3c",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Lisa Lipstick",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff5"
+        },
+        "isApproved": false,
+        "id": "615c9e1fe707aabf60a13a3c"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"green\";"
+        },
+        "_id": "615c9e42e707aabf60a13a3f",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Mark Money",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff6"
+        },
+        "isApproved": false,
+        "id": "615c9e42e707aabf60a13a3f"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9e5ae707aabf60a13a42",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Nigel Nope",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff7"
+        },
+        "isApproved": false,
+        "id": "615c9e5ae707aabf60a13a42"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: green;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9eb1e707aabf60a13a48",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Oliver Opposite",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff8"
+        },
+        "isApproved": false,
+        "id": "615c9eb1e707aabf60a13a48"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: black;\n}",
+            "JS": ""
+        },
+        "_id": "615c9ecce707aabf60a13a4b",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Penny Pencil",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ff9"
+        },
+        "isApproved": false,
+        "id": "615c9ecce707aabf60a13a4b"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"orange\";"
+        },
+        "_id": "615c9f1be707aabf60a13a50",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Queen Question",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ffa"
+        },
+        "isApproved": false,
+        "id": "615c9f1be707aabf60a13a50"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"blue\";"
+        },
+        "_id": "615c9f39e707aabf60a13a53",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Robbie Rotten",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ffb"
+        },
+        "isApproved": false,
+        "id": "615c9f39e707aabf60a13a53"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: blue;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9f62e707aabf60a13a56",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Sam Sausage",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ffc"
+        },
+        "isApproved": false,
+        "id": "615c9f62e707aabf60a13a56"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": "document.body.style.backgroundColor =\"black\";"
+        },
+        "_id": "615c9f82e707aabf60a13a59",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Terry Tiger",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ffd"
+        },
+        "isApproved": false,
+        "id": "615c9f82e707aabf60a13a59"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: deeppink;\n}",
+            "JS": ""
+        },
+        "_id": "615c9f95e707aabf60a13a5c",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Ursula Unique",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498ffe"
+        },
+        "isApproved": false,
+        "id": "615c9f95e707aabf60a13a5c"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: white;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615c9fb2e707aabf60a13a5f",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Vanessa Venus",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498fff"
+        },
+        "isApproved": false,
+        "id": "615c9fb2e707aabf60a13a5f"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: orange;\n}",
+            "JS": "document.body.style.backgroundColor =\"purple\";"
+        },
+        "_id": "615c9fd5e707aabf60a13a62",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "William Weather",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4499000"
+        },
+        "isApproved": false,
+        "id": "615c9fd5e707aabf60a13a62"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: gray;\n}",
+            "JS": ""
+        },
+        "_id": "615c9ff3e707aabf60a13a65",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Vanessa Venus",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4498fff"
+        },
+        "isApproved": false,
+        "id": "615c9ff3e707aabf60a13a65"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: green;\n}",
+            "JS": ""
+        },
+        "_id": "615ca044e707aabf60a13a6b",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "William Weather",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4499000"
+        },
+        "isApproved": false,
+        "id": "615ca044e707aabf60a13a6b"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: black;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615ca05ee707aabf60a13a6e",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Xavier Xenos",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4499001"
+        },
+        "isApproved": false,
+        "id": "615ca05ee707aabf60a13a6e"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: gray;\n}",
+            "JS": "document.body.style.backgroundColor =\"goldenrod\";"
+        },
+        "_id": "615ca078e707aabf60a13a71",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Yoder Young",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4499002"
+        },
+        "isApproved": false,
+        "id": "615ca078e707aabf60a13a71"
+    },
+    {
+        "solution": {
+            "HTML": "<div></div>",
+            "CSS": "body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\ndiv {\n  width: 33%;\n  height: 33%;\n  background-color: goldenrod;\n}",
+            "JS": "document.body.style.backgroundColor =\"deeppink\";"
+        },
+        "_id": "615ca09ee707aabf60a13a74",
+        "title": "Exercise 1 - Centering a Div",
+        "student": {
+            "name": "Zeller Zielinski",
+            "avatar": "https://i.postimg.cc/GpGp4pG6/Avatar-Users2-8.png",
+            "id": "6159d4d0d9c1cdbff4499003"
+        },
+        "isApproved": false,
+        "id": "615ca09ee707aabf60a13a74"
+    }
+]

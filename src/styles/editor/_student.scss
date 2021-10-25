@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import '../variables/variables';
+
+.student {
+    display: flex;
+    position: relative;
+    height: calc(100vh--nav-size);
+}
+.main {
+    display: flex;
+    height: $full-screen-height-vh;
+    width: $full-screen-percent;
+}
+.left,
+.right {
+    display: flex;
+    height: $full-screen-height-vh;
+    min-width: $half-screen-percent;
+}
+
+.pane {
+    min-height: $full-screen-percent;
+    display: flex;
+    flex-direction: column;
+    background-color: $editor-code-pane-color;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: $half-screen-percent;
+
+    .output-box {
+        background-color: $form-primary-color-lightest;
+        height: $full-screen-height-vh;
+        min-width: $full-screen-width-wh;
+    }
+}
+
+.button-container-left,
+.button-container-right {
+    display: flex;
+    min-width: $full-screen-percent;
+    min-height: $margin-xl * 2.5;
+    padding: $padding-l;
+    background-color: $editor-code-pane-color;
+
+    h3 {
+        margin-bottom: 0;
+        text-decoration: underline;
+        color: $form-primary-color-lightest;
+    }
+
+    h4 {
+        margin-top: 0;
+        color: rgb(216, 216, 115);
+        border: 1px solid rgb(216, 216, 115);
+        padding: 1rem;
+    }
+}
+
+.button-container-left {
+    margin: 0 $margin-xl;
+}
+
+.button-container-right {
+    display: flex;
+    justify-content: flex-end;
+    .button-submit {
+        background-color: $editor-code-pane-color;
+        padding: $padding-m;
+    }
+    .button-submit:hover {
+        background-color: $form-primary-color-lightest;
+        color: $editor-code-pane-color;
+        padding: $padding-m;
+    }
+}
+
+.editor-container {
+    height: $full-screen-percent;
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: $editor-code-pane-color;
+}
+
+.editor-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 6%, 13%);
+    color: rgb(223, 81, 81);
+    padding: $padding-m $padding-m $padding-m $padding-l;
+    border-top-right-radius: $border-radius-m;
+    border-top-left-radius: $border-radius-m;
+}
+
+.code-mirror-wrapper {
+    flex-grow: 1;
+    border-bottom-right-radius: $border-radius-m;
+    border-bottom-left-radius: $border-radius-m;
+    overflow: hidden;
+    height: $full-screen-percent;
+}
+.cm-s-material.CodeMirror {
+    padding: 0;
+    background-color: $editor-code-pane-color;
+}
+.CodeMirror {
+    margin: $margin-l 0 0 $margin-xl * 1.5;
+    height: $full-screen-percent;
+    padding-left: $padding-l;
+
+    div {
+        margin-left: $margin-l;
+
+        .CodeMirror-cursor {
+            border-left: 1px solid $form-primary-color-lightest;
+        }
+        .CodeMirror-linenumber {
+            color: $form-primary-color-lightest;
+            margin-left: -2 * $margin-xl;
+        }
+        .CodeMirror-code {
+        }
+
+        .CodeMirror-gutters {
+            background-color: $editor-code-pane-color;
+        }
+
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        text-align: left;
+        text-indent: $margin-xl;
+    }
+}
+
+.editor-container {
+    display: none;
+}
+
+.view {
+    display: block;
+}
+
+.exercise--title__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 0;
+        text-decoration: underline;
+        color: white;
+    }
+
+    h4 {
+        margin-top: 0;
+        color: rgb(216, 216, 115);
+        border: 1px solid rgb(216, 216, 115);
+        padding: 1rem;
+    }
+}
+
+.student-list {
+    height: $full-screen-height-vh;
+    width: $full-screen-percent - 70%;
+    background-color: $editor-code-pane-color;
+    border: 2px solid $form-primary-color-lightest;
+    border-left: none;
+    border-radius: $border-radius-xl;
+    display: none;
+
+    &.toggleList {
+        display: block;
+    }
+
+    ul {
+        color: $form-primary-color-lightest;
+        padding: $padding-l;
+        margin: $margin-l;
+    }
+
+    li {
+        padding: $padding-l;
+        margin: $margin-l;
+        background-color: $editor-code-pane-color;
+        display: flex;
+        border-bottom: 2px solid $form-primary-color-lightest;
+        justify-content: space-between;
+    }
+}
+
+.editor-title {
+    display: none;
+}
+
+.instructions--container {
+    p,
+    h2 {
+        display: none;
+    }
+    &.toggleInstructions {
+        background-color: $form-primary-color-lightest;
+        height: $half-screen-percent;
+        width: $full-screen-percent;
+        border: 1px solid black;
+        overflow: scroll;
+        background-color: rgb(220, 220, 220);
+
+        p,
+        h2 {
+            display: block;
+        }
+    }
+}
+
+.icon-list {
+    background-color: red;
+}
+
+.approved {
+    background-color: green;
+}
+
+.footer-student-editor {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 10;
+    background-color: $editor-code-pane-color;
+    min-width: $full-screen-percent;
+    bottom: 0;
+    padding: $padding-l 0;
+}

@@ -1,0 +1,30 @@
+{
+    "menus": [
+        {
+            "title": "Exercises",
+            "icon": "fas fa-graduation-cap",
+            "active": false
+        },
+        {
+            "title": "Lessons",
+            "icon": "fas fa-code",
+            "active": false
+        },
+        {
+            "title": "Resources",
+            "icon": "fas fa-cut",
+            "active": false
+        },
+        {
+            "title": "Snippets",
+            "icon": "fas fa-comment",
+            "active": false
+        },
+
+        {
+            "title": "Instructions",
+            "icon": "fa fa-book-open",
+            "active": false
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import '../variables/variables';
+
+.dash {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    height: calc(100vh - $nav-size);
+    background-color: rgb(214, 214, 214);
+}
+
+/*.dash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 95vh;
+    background-color: rgb(31, 31, 31);
+}
+*/
+
+.card-description-name {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    color: rgb(18, 28, 46);
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+    height: 5vh;
+}
+
+.dash-list {
+    margin-left: 3rem;
+    width: 30%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 8px 1px #888888;
+
+    hr {
+        color: rgb(18, 28, 46);
+    }
+    ul {
+        color: rgb(18, 28, 46);
+        padding: 1rem;
+        margin: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        padding: 1rem;
+        margin: 0.5rem;
+        background-color: white;
+        display: flex;
+        border-bottom: 2px solid white;
+        justify-content: space-between;
+        border: solid black;
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+
+    img {
+        border-radius: 50%;
+        justify-content: left;
+    }
+}
+
+.exercise-stat {
+    background-color: red;
+    border-radius: 50%;
+    padding: 1rem;
+}

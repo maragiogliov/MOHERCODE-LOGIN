@@ -1,0 +1,26 @@
+@import '../variables/variables';
+
+.message--login,
+.message--welcome {
+    // margin-left: $margin-xl;
+    // text-align: center;
+    font-family: $font-login;
+}
+
+.message--welcome {
+    font-weight: 400;
+}
+
+.message--title {
+    position: absolute;
+    top: 12rem;
+    left: 9rem;
+    color: $form-primary-color-lightest;
+    font-family: $font-login;
+    font-size: $font-xl;
+}
+
+.message--option {
+    font-family: $font-headline-bold;
+    color: $form-primary-text-color;
+}

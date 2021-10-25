@@ -1,0 +1,156 @@
+@media (max-width: 625px) {
+    .login {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        width: $full-screen-width-wh;
+        height: $full-screen-height-vh;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+
+        .grafic {
+            position: absolute;
+            display: block;
+            z-index: -1;
+        }
+
+        .login-image--container {
+            padding: 0;
+            color: $color-text-lightest;
+            font-family: $font-headline-bold;
+            font-size: $font-l * 1.2;
+
+            .login--image {
+                display: block;
+                width: $margin-xl * 15;
+                margin-bottom: 0;
+            }
+
+            .login--headline {
+                text-align: center;
+                margin-top: 0;
+            }
+            .login--headline-secondary {
+                text-align: center;
+                display: none;
+            }
+
+            .title-slogan {
+                line-height: 0.5;
+                h4 {
+                    font-family: $font-headline-light;
+                    margin-top: $margin-xl;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 626px) and (max-width: 930px) {
+    .login {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        width: $full-screen-width-wh;
+        height: $full-screen-height-vh;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        .grafic {
+            position: absolute;
+            display: block;
+            z-index: -1;
+        }
+
+        .login-image--container {
+            margin: -1 * $margin-l;
+            padding: 0;
+            color: $color-text-lightest;
+            font-family: $font-headline-bold;
+            font-size: $font-l * 1.2;
+
+            .login--image {
+                display: block;
+                width: $margin-xl * 17;
+                padding: 0;
+            }
+
+            .login--headline {
+                text-align: center;
+                margin-top: 0;
+            }
+            .login--headline-secondary {
+                text-align: center;
+                font-weight: 900;
+            }
+
+            .title-slogan {
+                line-height: 0.5;
+                h4 {
+                    font-family: $font-headline-light;
+                    margin-top: $margin-xl;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 626px) and (max-width: 648px) {
+    .login {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        width: $full-screen-width-wh;
+        height: $full-screen-height-vh;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        .grafic {
+            position: absolute;
+            display: block;
+            z-index: -1;
+        }
+
+        .login-image--container {
+            margin: -1 * $margin-l;
+            padding: 0;
+            color: $color-text-lightest;
+            font-family: $font-headline-bold;
+            font-size: $font-l * 1.2;
+            // border: 1px solid yellow;
+            margin-bottom: $margin-xl;
+
+            .login--image {
+                display: block;
+                width: $margin-xl * 18;
+                padding: 0;
+            }
+
+            .login--headline {
+                text-align: center;
+                margin-top: 0;
+            }
+            .login--headline-secondary {
+                text-align: center;
+                font-weight: 900;
+                display: none;
+            }
+
+            .title-slogan {
+                line-height: 0.5;
+                h4 {
+                    font-family: $font-headline-light;
+                    margin-top: $margin-xl;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,179 @@
+.sidebar-wrapper {
+  width: 90px;
+  height: 100%;
+  max-height: 100%;
+  position: fixed;
+}
+
+.sidebar-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-wrapper a {
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.sidebar-wrapper .sidebar-content {
+  max-height: calc(100% -55px);
+  height: calc(100% - 55px);
+  position: relative;
+}
+
+.sidebar-wrapper {
+  z-index: 200;
+}
+
+.sidebar-wrapper .sidebar-menu i {
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.sidebar--logo {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  border-bottom: none;
+}
+
+.sidebar-simple a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.menu-full {
+  width: 230px;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.menu-full.toggled {
+  left: -230px;
+}
+
+.red-color {
+  color: rgba(255, 0, 0, 0.66);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+.red-color:hover {
+  color: red;
+}
+
+.green-color {
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  color: green;
+}
+
+.sidebar-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem;
+}
+
+.sidebar-footer > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  height: 55px;
+  line-height: 55px;
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar-footer > div > a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.page-wrapper {
+  height: 100vh;
+}
+
+.page-wrapper .sidebar-wrapper {
+  left: 0px;
+}
+
+.sidebar-simple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar-simple i {
+  color: #a7a0a0;
+}
+
+.sidebar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.default-theme .sidebar-wrapper {
+  background-color: #1e2229;
+}
+
+.default-theme .sidebar-wrapper .sidebar-item {
+  border-top: 1px solid #2e333c;
+}
+
+.default-theme .sidebar-wrapper .sidebar-item:first-child {
+  border-top: none;
+}
+
+.default-theme .sidebar-wrapper .sidebar-menu a:hover i,
+.default-theme .sidebar-wrapper .sidebar-menu li.active a i {
+  color: #16c7ff;
+}
+/*# sourceMappingURL=Sidebar.css.map */

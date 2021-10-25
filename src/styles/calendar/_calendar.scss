@@ -1,0 +1,217 @@
+//calendarHeader
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .header__h1 {
+        margin-right: 2.5rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: gray;
+        font-weight: bold;
+    }
+    .header__button--today {
+        padding: 0.5rem;
+        margin-right: 1.25rem;
+        border: 0.1rem solid gray;
+        border-radius: 0.5rem;
+        box-shadow: rgba(36, 34, 34, 0.24) 0rem 0.5rem 0.8rem;
+    }
+
+    .header__button--previous,
+    .header__button--next {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: larger;
+        border-radius: 0.5rem;
+    }
+    .header__h2 {
+        margin-left: 1rem;
+        color: gray;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+//Day
+
+.day__container {
+    display: flex;
+    flex-direction: column;
+    border: 0.01rem solid rgb(190, 173, 173);
+
+    .day__container--header {
+        background-color: rgb(172, 65, 196);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0.2rem;
+
+        .day__text {
+            font-size: 0.9rem;
+            font-weight: bold;
+            line-height: 1rem;
+            margin-top: 0.25rem;
+        }
+        .day__num {
+            font-size: 0.9rem;
+            line-height: 1rem;
+            text-align: center;
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+            padding: 0.25rem;
+        }
+    }
+    .day__container--body {
+        flex-grow: 1;
+        flex-shrink: 1;
+        cursor: pointer;
+    }
+    .day__container--event {
+        padding: 0.5rem;
+        margin: 0.5rem;
+        color: black;
+        font-weight: bold;
+        border-radius: 00.25rem;
+    }
+}
+
+//EventModal
+
+.event__modal {
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+
+    .event__modal--form {
+        background-color: rgb(255, 255, 255);
+        border-radius: 1rem;
+        box-shadow: rgba(36, 34, 34, 0.24) 0rem 0.5rem 0.8rem;
+
+        .form__header {
+            background-color: rgb(218, 208, 208);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+
+            .dragIcon {
+                font-size: 3rem;
+            }
+
+            .deleteIcon {
+                font-size: 3rem;
+                cursor: pointer;
+                margin: 0.5rem;
+            }
+
+            .closs {
+                height: 2.35rem;
+                align-items: center;
+                border-radius: 0.5rem;
+                font-weight: bold;
+            }
+            .closeIcon {
+                width: 1rem;
+                cursor: pointer;
+            }
+        }
+        .form__body {
+            padding: 1rem;
+
+            .form__body--one {
+                display: grid;
+                grid-template-columns: 0.5fr 1fr;
+                row-gap: 1rem;
+                align-items: center;
+                font-size: 3rem;
+
+                input {
+                    font-size: 3rem;
+                    padding: 0.5rem;
+                    background-color: rgb(226, 220, 220);
+                    outline: none;
+                }
+            }
+        }
+
+        .form__body--partTwo {
+            display: flex;
+            gap: 0.5rem;
+
+            .form__lbl {
+                border-radius: 50%;
+                width: 4rem;
+                height: 4rem;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .checkedIcon {
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+        .footer {
+            display: flex;
+            justify-content: end;
+            border-top: 0.1rem solid gray;
+            padding: 1rem;
+            margin: 1rem;
+
+            .save {
+                background-color: blue;
+                padding: 1.5rem;
+                border-radius: 1rem;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+//label
+
+.label {
+    border: 10px solid red;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+//month
+.month {
+    background-color: rgb(218, 208, 208);
+    margin-top: 1rem;
+    width: 100%;
+    height: 93vh;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+//View\calender
+.calendar {
+    display: flex;
+    padding: 0.5rem;
+    border: 1rem solid chartreuse;
+
+    .calendar__form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        border: 1rem solid violet;
+
+        .calendar__form--item {
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    }
+}
